@@ -1,0 +1,91 @@
+body{
+    margin: 1rem;
+    background-color: rgb(0, 139, 141);
+    overflow-x: hidden;
+}
+.img-titulo{
+    margin-top: 0rem;
+}
+
+.titulo{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+.cabecalho{
+    background-color: rgb(4, 55, 56);
+    height: 3rem;
+    padding: 2px;
+}
+.cabecalho ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.cabecalho ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.container img{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction:row;
+    
+    justify-content: space-around;
+}
+
+.eletronicos{
+    background-color: #ffffff;
+    height: 23%;
+
+}
+.eletroportateis{
+    background-color: #ffffff;
+    height: 23%;
+}
+.moveis{
+    background-color: #ffffff;
+    height: 25%;
+}
+.perfumaria{
+    background-color: #ffffff;
+    height: 27%;
+}
+.FIAP{
+    background-color: #ffffff;
+    width: 80%;
+    height: 18%;
+}
+.IBM{
+    background-color: #ffffff;
+    width: 80%;
+    height: 23%;
+}
+.Intel{
+    background-color: #ffffff;
+    width: 80%;
+    height: 19%;
+}
+.fale{
+    background-color: #ffffff;
+    width: 80%;
+    height: 10%;
+}
+.LOCALIZACAO{
+    background-color: #ffffff;
+    width: 80%;
+    height: 15%;
+}
+.rodape{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 30px;
+    height: 6rem;
+    text-align: center;
+    padding: 1px;
+}
